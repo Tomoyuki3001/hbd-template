@@ -1,0 +1,33 @@
+.footer-container {
+  height: 8rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f9e24e;
+  font-family: "Libre Baskerville", serif;
+}
+
+.footer-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  margin: 0.5rem 0;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: 4rem;
+  }
+  .footer-text {
+    margin: 0.5rem 0;
+    font-size: 0.6em;
+  }
+}

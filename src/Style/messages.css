@@ -1,0 +1,146 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+.card-header {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.card-button-continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button-continer-after {
+  display: none;
+}
+
+.card {
+  display: none;
+}
+
+.card-button-text {
+  font-size: 1.5em;
+}
+
+.card-button-input {
+  border: 0;
+  border-bottom: 4px solid #c8c9cc;
+  outline: 0;
+  font-size: 1.3em;
+  color: #c8c9cc;
+  padding: 7px 0;
+  background: transparent;
+  margin: 2rem 0;
+  width: 60%;
+}
+
+.card-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #c7c76f;
+  color: rgb(33, 33, 33);
+  background-color: rgb(249, 226, 78);
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.card-button:hover {
+  background-color: rgb(33, 33, 33);
+  color: #f9e24e;
+}
+
+.card-after {
+  width: 35rem;
+  height: 50rem;
+  background-color: rgb(249, 226, 78, 0.8);
+  padding: 1rem 2rem;
+  text-align: start;
+  border-radius: 10px;
+  color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-from {
+  text-align: end;
+}
+
+.card-dear {
+  text-align: start;
+}
+
+.card-contents {
+  padding: 1rem;
+  font-size: 1em;
+  line-height: 2.5;
+  letter-spacing: 3px;
+}
+
+.card-logo {
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .card-header {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  .card-button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #c7c76f;
+    color: rgb(33, 33, 33);
+    background-color: #f9e24e;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .card-after {
+    width: 70%;
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .card-contents {
+    padding: 0;
+    font-size: 0.7em;
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+
+  .card-dear {
+    font-size: 1em;
+  }
+
+  .card-from {
+    font-size: 0.8em;
+  }
+
+  .card-logo {
+    width: 5rem;
+    height: auto;
+  }
+
+  .card-button-text {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,66 @@
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  padding-top: 5rem;
+}
+
+.progress-header {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 10rem;
+}
+
+.progress-text {
+  font-size: 2em;
+}
+
+.progress-days {
+  font-size: 2em;
+  color: #f9e24e;
+}
+
+.progress-movies {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.progress-movie-image {
+  width: 20%;
+  margin: 0 1rem;
+}
+
+.progress-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.progress-logos img {
+  width: 15%;
+  height: auto;
+  margin: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .progress-header {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  .progress-text {
+    font-size: 1em;
+  }
+  .progress-movie-image {
+    width: 30%;
+    margin: 0 1rem;
+  }
+  .progress-logos img {
+    width: 15%;
+    height: auto;
+    margin: 0 1rem;
+  }
+}
