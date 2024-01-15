@@ -114,7 +114,7 @@
     padding: 6px;
     transform: rotate(10deg);
     width: 13rem;
-    height: auto;
+    height: 16rem;
     position: absolute;
     object-fit: cover;
     animation-name: multiple-image-crossfade;
